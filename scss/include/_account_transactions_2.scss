@@ -1,0 +1,232 @@
+.acc-transactions-table {
+  max-width: 650px;
+  tr {
+    td {
+      &:first-child {
+        background: #D8D8D8;
+        font-size: 12px !important;
+        color: #0C0B0B !important;
+      }
+
+      &:nth-child(2) {
+        font-size: 10px !important;
+        width: 138px;
+      }
+
+      &:nth-child(3) {
+        width: 275px;
+        line-height: 14px;
+        text-align: left;
+      }
+
+      &:nth-child(4) {
+        width: 70px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+
+      &:nth-child(5) {
+        width: 70px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
+
+  th {
+    background: #0C0B0B !important;
+    border: 2px solid #fff !important;
+    box-sizing: border-box;
+    font-weight: 400 !important;
+    height: 26px !important;
+    align-items: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+
+  td {
+    border: 1px solid #0F0D0D !important;
+    box-sizing: border-box;
+    font-weight: 400 !important;
+    letter-spacing: 0.875px !important;
+    height: 39px !important;
+    text-transform: uppercase;
+  }
+
+  tbody {
+    &::before {
+      content: '';
+      display: block;
+    }
+  }
+}
+
+.dropdown-export {
+  background: #050336;
+  border: 1px solid #070707;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  width: 74px;
+  min-width: auto;
+}
+
+.dropdown-item-export {
+  &:hover {
+    background: none;
+  }
+
+  &:focus {
+    background: none;
+  }
+}
+
+.dropdown-export-div {
+  position: relative;
+  display: inline-block;
+  z-index: 101;
+}
+
+.dropdown-export-btn {
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.backdrop {
+  background-color: rgba(216, 216, 216, 0.73);
+  opacity: 0.5;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.btns_container {
+  width: 670px;
+}
+
+.outer_container {
+  justify-content: center;
+}
+
+.dropdown-toggle.dropdown-charge-history {
+  height: 24px;
+  background: #DFDCDC;
+  border: 1px solid #070707;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.dropdown-toggle.dropdown-toggle-month {
+  width: 97px;
+}
+
+.dropdown-toggle.dropdown-toggle-year {
+  width: 74px;
+}
+
+.table__hr {
+  border: 2px solid #EF0C0C !important;
+  opacity: 1;
+}
+
+.droppable_div {
+  line-height: 10px;
+}
+
+.border_dotted_bottom {
+  border-bottom: 0.3px dashed #979797;
+}
+
+.dropdown-menu.dropdown-month {
+  width: 97px;
+  border: 1px solid #070707 !important;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  min-width: auto;
+}
+
+.dropdown-menu.dropdown-year {
+  width: 74px;
+  border: 1px solid #070707 !important;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  min-width: auto;
+}
+
+.btn-search-theme {
+  width: 74px;
+  border: 1px solid #070707;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  letter-spacing: 0.5625px;
+}
+
+.btn-search-icon {
+  width: 34.97px;
+  height: 29px;
+  background: #FFFFFF;
+  border: 1px solid #070707;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchForm {
+  width: 165px;
+  height: 29px;
+  background: #FFFFFF;
+  border: 1px solid #070707;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  font-size: 9px;
+  font-style: italic;
+  text-align: center;
+  padding: 6px;
+  color: #787575;
+  text-transform: uppercase;
+}
+
+input[type="search"] {
+  &::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    font-size: 9px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    float: left;
+    left: 4px;
+    object-fit: contain;
+    cursor: pointer;
+    background: url("/images/x-circle-fill.svg") no-repeat;
+  }
+}
+
+@media (min-width: 992px) {
+  #addCardDetailsModal {
+    top: 10% !important;
+    left: 1.2% !important;
+
+    .modal-content {
+      width: 602px !important;
+    }
+  }
+  .acc-transactions-table {
+    max-width: 559px;
+  }
+  .btns_container {
+    width: 575px;
+  }
+}

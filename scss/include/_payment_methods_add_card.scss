@@ -1,0 +1,88 @@
+input.form-control-add-card {
+  width: 291px !important;
+  height: 35px;
+  background: #D8D8D8 !important;
+  border: 1px solid #0C0B0B !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 8px !important;
+  margin-left: auto !important;
+  text-transform: uppercase;
+}
+
+input.form-control-add-card-year {
+  width: 110px !important;
+  height: 35px;
+  background: #D8D8D8 !important;
+  border: 1px solid #0C0B0B !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 8px !important;
+  margin-left: auto !important;
+  text-transform: uppercase;
+}
+
+input.form-control-add-card-month {
+  width: 134px !important;
+  height: 35px;
+  background: #D8D8D8 !important;
+  border: 1px solid #0C0B0B !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 8px !important;
+  margin-left: auto !important;
+  text-transform: uppercase;
+}
+
+hr {
+  opacity: 1 !important;
+  width: 24px !important;
+}
+
+#addCardDetailsModal {
+  top: 10% !important;
+
+  .modal-content {
+    background: #DFDCDC !important;
+    border: 2px solid #0C0B0B !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+@media (min-width: 778px) {
+  input.form-control-add-card-month {
+    width: 130px !important;
+    height: 35px;
+    background: #D8D8D8 !important;
+    border: 1px solid #0C0B0B !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 8px !important;
+    margin-left: auto !important;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 992px) {
+  #addCardDetailsModal {
+    top: 10% !important;
+    left: 1.2% !important;
+
+    .modal-content {
+      width: 602px !important;
+    }
+  }
+
+  input.form-control-add-card-month {
+    width: 130px !important;
+    height: 35px;
+    background: #D8D8D8 !important;
+    border: 1px solid #0C0B0B !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 8px !important;
+    margin-left: auto !important;
+    text-transform: uppercase;
+  }
+}

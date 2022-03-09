@@ -1,0 +1,89 @@
+.charge-history-table {
+  th {
+    background: #D8D8D8 !important;
+    border: 2px solid #0C0B0B !important;
+    box-sizing: border-box;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    height: 39px !important;
+    vertical-align: middle;
+  }
+
+  td {
+    border: 2px solid #0C0B0B !important;
+    box-sizing: border-box;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.875px !important;
+    height: 39px !important;
+    vertical-align: middle;
+  }
+
+  tr {
+    td {
+      &:last-child {
+        font-size: 10px !important;
+      }
+    }
+  }
+}
+
+.dropdown-toggle.dropdown-charge-history {
+  height: 24px;
+  background: #DFDCDC;
+  border: 1px solid #070707;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.dropdown-toggle.dropdown-toggle-month {
+  width: 97px;
+}
+
+.dropdown-toggle.dropdown-toggle-year {
+  width: 74px;
+}
+
+.table__hr {
+  border: 2px solid #EF0C0C !important;
+  opacity: 1;
+}
+
+.dropdown-menu.dropdown-month {
+  width: 97px;
+  border: 1px solid #070707 !important;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  min-width: auto;
+}
+
+.dropdown-menu.dropdown-year {
+  width: 74px;
+  border: 1px solid #070707 !important;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  min-width: auto;
+}
+
+.btn-search-theme {
+  width: 74px;
+  border: 1px solid #070707;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  letter-spacing: 0.5625px;
+}
+
+@media (min-width: 992px) {
+  #addCardDetailsModal {
+    top: 10% !important;
+    left: 1.2% !important;
+
+    .modal-content {
+      width: 602px !important;
+    }
+  }
+}

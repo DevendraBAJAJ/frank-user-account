@@ -1,0 +1,21 @@
+$grid-gutter-width: 1.875rem;
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 835px,
+	xl: 1200px,
+	xxl: 1365px
+);
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 800px,
+	xl: 1140px,
+	xxl: 1200px
+);
+
+$color-midnight-express: #050336;
+$color-dark: #0C0B0B;
+$color-gainsboro: #DFDCDC;
+$color-black-070: #070707;
